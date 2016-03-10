@@ -1,0 +1,374 @@
+/*Global Styles */
+
+body {
+	background-color:black;
+	display: inline;
+	background-image:url('../images/bodybackground.jpg');
+	background-position:center 100px;
+	background-size:450px;
+	background-repeat:no-repeat;
+	font-family:"Abel", "Raleway", sans-serif, arial;
+	margin:0;
+	cursor:context-menu;
+}
+
+li {
+	text-decoration: none;
+	display:inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Raleway";
+	text-align:center;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+h3 {
+	
+}
+
+h4 {
+	font-size:1em;
+	display:inline;
+}
+
+h5 {
+	
+}
+
+h6 {
+	
+}
+
+p {
+	font-family: "Abel";
+	display:inline;
+}
+
+.container {
+	width:100%;
+}
+
+.content {
+	width:92%;
+	margin:0 auto;
+	
+
+	/*To adjust in the media edits */
+	min-width:850px;
+	max-width:1000px;
+	/*to remove
+	background-color: green;*/
+}
+
+
+/*header styles*/
+
+.header {
+	height:3.5rem;
+	z-index:9999;
+	position:fixed;
+	display: inline;
+	background-color:black;
+
+	/*To be taken out 
+	background-color:white;
+	border-bottom:3px solid green;*/
+}
+
+.header > .content {
+	/*places the border in the header and sets its color */
+	border-bottom:;
+}
+
+.header > .content {
+	border-bottom:2px solid #252525;
+
+}
+
+.circle {
+	/*This centers the image and then makes sure that
+	its left side doesnt go past the border */
+	margin-top:.85rem;
+	margin-left:.5rem;
+}
+
+.content > .circle:hover {
+	cursor:pointer;
+}
+
+.title-container {
+	/*This adjusts the title in of the header */
+	display:inline;
+	margin-top:1.05em;
+	position:absolute;
+	
+	/*adjust in media kit */
+	margin-left:2.5em;
+}
+
+.title {
+	/*Styles 'kyle lenci'*/
+	color:#06adf1;
+	font-weight:bold;
+}
+
+.title-container > h4 {
+	/*styles the rest of the title */
+	color:#787878;
+	font-weight:normal;
+	margin-left:.25em;
+}
+
+	/*Navbar Links */
+.content > ul {
+	float:right;
+}
+
+.about-links > li {
+	margin-left:1.875rem;
+}
+
+#contact > a, 
+#about > a,
+#projects > a {
+	color:#787878;
+}
+
+#home > a {
+	color:#06adf1;
+	font-weight:bold;
+}
+
+#contact > a:active, 
+#about > a:active,
+#projects > a:active {
+	color:#787878;
+}
+
+#home > a:active {
+	color:#06adf1;
+	font-weight:bold;
+}
+
+#contact {
+	margin-right:.65em;
+}
+
+
+/*Masthead */
+.intro {
+	height:40rem;
+}
+
+.text-container {
+	margin-left:12%;
+	margin-top:9rem;
+	width:50%;
+	font-size:14px;
+}
+
+.quote {
+	font-size:2.65em;
+	line-height:150%;
+	color:white;
+	font-family:"Raleway", sans-serif;
+}
+
+
+
+
+/*About Me style */
+.about {
+	background-color:#06adf1;
+	color:white;
+	text-align:center;
+}
+
+.about-text {
+	margin-top:-1rem;
+	padding-top:10rem;
+}
+
+.about-text > h1 {
+	font-size:2.5rem;
+}
+
+.cases {
+	padding:5rem 0 3.7rem;
+}
+
+.devices {
+ 	display:inline-block;
+ 	padding:3rem 0;
+ 	width:30%;
+ 	padding:0 .3rem;
+ }
+
+.devices > img {
+	margin:0 auto;
+	width:12.5rem;
+	height:12.5rem;
+	display:block;
+}
+
+.devices-text {
+	height:175px;
+	overflow: hidden;
+}
+
+
+
+
+
+/*Project intro*/
+.project-intro {
+	color:white;
+}
+
+.project-text {
+	text-align: center;
+	padding:7rem 0 3rem;
+}
+
+#project-title {
+	font-size:2.3rem;
+}
+
+
+
+
+
+/*Project list */
+.project-list {
+	color:white;
+	background-color:#a1a1a1;
+	padding:2rem 0 1.5rem;
+	width:100%;
+	overflow-x:hidden;
+}
+
+#project-content {
+	width:1000px;
+	margin:0 auto;
+
+}
+
+.portfolio {
+	height:1000px;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+.portfolio::-webkit-scrollbar {
+	display:none;
+}
+
+
+
+
+
+
+
+	/*Individual project icons */
+.item {
+	width:14rem;
+	margin:0 3.41rem 1.7rem;
+	background-color:white;
+	float:left;
+	border-bottom:1.5px solid #06adf1;
+	-webkit-transform: translateZ(0);
+ 	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  	-webkit-backface-visibility: hidden;
+  	backface-visibility: hidden;
+  	-moz-osx-font-smoothing: grayscale;
+  	-webkit-transition-duration: 0.3s;
+ 	 transition-duration: 0.3s;
+ 	 -webkit-transition-property: transform;
+  	transition-property: transform;
+}
+
+.item:hover, .item:focus, .item:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.item-image {
+	height:14rem;
+	background-color: green;
+}
+
+.item-content {
+	border-top:1px solid #06adf1;
+	padding:20px 25px;
+}
+
+.item-content > h2 {
+	font-size:1rem;
+	font-weight:bold;
+	text-align:left;
+	height:24px;
+	color:#646464;
+	line-height: 1em;
+}
+
+.post-text {
+		height:16px;
+		margin-bottom: 7px;
+		overflow: hidden;
+		padding: 0;
+}
+
+.post-categories {
+	height:1.2rem;
+	overflow:hidden;
+	border-top:1px solid #f3f3f3;
+	padding-top:10px;
+}
+
+.post-categories > p {
+	display:inline;
+	padding-top:.3rem;
+	color:black;
+}
+
+
+/*Footer Section */
+.social {
+	height:13rem;
+	border-top:2px solid #06adf1;
+}
+
+#footer {
+	font-size:2em;
+	text-align:center;
+	margin:0 auto;
+}
+
+#footer > li {
+	padding:4rem;
+	color:white;
+}
+
+#footer > #hire-me {
+	color:#06adf1;
+}
+
