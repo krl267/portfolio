@@ -1,0 +1,344 @@
+/*Global Styles */
+
+
+body {
+	font-family:"Abel", "Raleway", sans-serif, arial;
+	margin:0;
+	cursor:context-menu;
+	/*overflow-x:hidden;*/
+}
+
+a {
+	text-decoration:none;
+	color:none;
+}
+
+
+li {
+	text-decoration: none;
+	display:inline-block;
+}
+
+a {
+	text-decoration:none;
+	color:none;
+}
+
+.main-content {
+	background-color: white;
+	height:740px;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	margin-bottom:15rem;
+}
+
+.container {
+	width:100%;
+	height:740px;
+	float:left;
+}
+
+.content {
+	width:92%;
+	margin:0 auto;
+	
+
+	/*To adjust in the media edits */
+	min-width:850px;
+	max-width:1000px;
+	/*to remove
+	background-color: green;*/
+}
+
+/*Left and Right Arrow Styles */
+.js-button {
+	position: relative;
+	color:#06adf1;
+	top:40%;
+	padding:0 50px;
+	font-size: 5em;
+	display:inline-block;
+	z-index:1000;
+}
+
+.js-button:hover {
+	background-color:#06adf1;
+	color:white;
+	opacity:.5;
+	cursor: pointer;
+}
+
+.right {
+	float:right
+}
+
+.left {
+	float:left;
+}
+
+/*Header Styles */
+.header {
+	height:3.5rem;
+	z-index:9999;
+	position:fixed;
+	display: inline-block;
+	background-color:white;
+	border-bottom:2px solid grey;
+
+	/*To be taken out 
+	background-color:white;
+	border-bottom:3px solid green;*/
+}
+
+.title-container {
+	/*This adjusts the title in of the header */
+	display:inline;
+	margin-top:1.05em;
+	position:absolute;
+	
+	/*adjust in media kit */
+	margin-left:2.5em;
+}
+
+.title {
+	/*Styles 'kyle lenci'*/
+	color:#06adf1;
+	font-weight:bold;
+	display:inline;
+}
+
+.title-container > h4 {
+	/*styles the rest of the title */
+	color:#787878;
+	font-weight:normal;
+	margin-left:.55em;
+	display:inline;
+}
+
+	/*Navbar Links */
+.content > ul {
+	float:right;
+}
+
+.about-links > li {
+	margin-left:1.875rem;
+}
+
+#contact, 
+#about,
+#projects {
+	color:#787878;
+}
+
+#home {
+	color:#06adf1;
+	font-weight:bold;
+}
+
+#contact {
+	margin-right:.65em;
+}
+
+
+/*Main Landing Styles */
+.intro {
+	height:740px;
+	margin-top:-5rem;
+	background-color: white;
+	background-image:url('../images/bodybackground.jpg');
+	background-position:center;
+	background-size:450px;
+	background-repeat:no-repeat;
+}
+
+.text-container {
+	margin-left:12%;
+	width:50%;
+	padding-top:9em;
+	font-size:14px;
+}
+
+.quote {
+	font-size:2.65em;
+	line-height:150%;
+	color:#06adf1;
+	font-family:"Raleway", sans-serif;
+}
+
+
+/*About Me Styles */
+.about {
+	background-color:white;
+	color:#06adf1;
+	text-align:center;
+	height:690px;
+	overflow-y:hidden;
+	margin-bottom:15rem;
+}
+
+.about-text {
+	margin-top:-1rem;
+}
+
+.about-text > h1 {
+	font-size:2.5rem;
+}
+
+.cases {
+	padding:3rem 0 3.7rem;
+}
+
+.devices > img {
+	margin:0 auto;
+	width:12.5rem;
+	height:12.5rem;
+}
+
+.devices {
+ 	display:inline-block;
+ 	padding:3rem 0;
+ 	width:30%;
+ 	padding:0 .3rem;
+ }
+
+.devices-text {
+	height:175px;
+	overflow: hidden;
+}
+
+
+/*Project list */
+.project-list {
+	height:690px;
+	background-color:white;
+	margin-bottom:15rem;
+}
+
+.project-text {
+	text-align: center;
+	padding:0rem 0 3rem;
+	margin-top:-4rem;
+	color:black;
+	background-color:white;
+}
+
+#project-title {
+	font-size:2.3rem;
+}
+
+h5 {
+	color:#909090;
+	margin-top:-.2rem;
+	font-size: 1rem;
+	background-color:white;
+}
+
+
+
+/*Porject Boxes */
+/*Individual project icons */
+.item {
+	width:14rem;
+	margin:2rem .74rem 1.7rem;
+	background-color:white;
+	float:left;
+	border:1.5px solid #06adf1;
+	-webkit-transform: translateZ(0);
+ 	transform: translateZ(0);
+  	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  	-webkit-backface-visibility: hidden;
+  	backface-visibility: hidden;
+  	-moz-osx-font-smoothing: grayscale;
+  	-webkit-transition-duration: 0.3s;
+ 	 transition-duration: 0.3s;
+ 	 -webkit-transition-property: transform;
+  	transition-property: transform;
+}
+
+.item:hover, .item:focus, .item:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);*/
+}
+
+
+
+.item-image {
+	height:14rem;
+	float:right;
+}
+
+.item-content {
+	padding:20px 25px;
+	float:left;
+}
+
+.item-content > h2 {
+	font-size:1rem;
+	font-weight:bold;
+	text-align:left;
+	height:24px;
+	color:#646464;
+	line-height: 1em;
+}
+
+.item-content > h3 {
+	font-size:.75rem;
+	font-weight:bold;
+	text-align:left;
+	height:24px;
+	color:#909090;
+}
+
+.post-text {
+		height:16px;
+		margin-bottom: 7px;
+		overflow: hidden;
+		padding: 0;
+}
+
+.post-categories {
+	height:1.2rem;
+	overflow:hidden;
+	border-top:1px solid #f3f3f3;
+	padding-top:10px;
+}
+
+.post-categories > p {
+	display:inline;
+	padding-top:.3rem;
+	color:black;
+}
+
+/*Footer Section */
+.social {
+	height:13rem;
+	border-top:2px solid #06adf1;
+	background-color:black;
+	position:fixed;
+	bottom:0;
+	left:0;
+	z-index:-1;
+}
+
+#footer {
+	font-size:2em;
+	text-align:center;
+	margin:0 auto;
+}
+
+#footer > li {
+	padding:4rem;
+	color:white;
+}
+
+#footer > #hire-me {
+	color:#06adf1;
+}
+
+
+/* Questions :
+1) Why is 740px different for each page?
+2) How to get the scoll-up effect in just one go?
+3) how to prevent multiple scrolls from engaging the Project-List?
